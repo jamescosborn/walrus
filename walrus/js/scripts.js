@@ -22,6 +22,10 @@ $(document).ready(function() {
   $("button#dark").click(function() {
     $("body").removeClass();
     $("body").addClass("dark-background");
-    $("body").addClass("light-text")
+    $("body").addClass("light-text");
+  });
+
+  $("button#original").click(function() {
+    $("body").removeClass();
   });
 });
