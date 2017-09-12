@@ -14,6 +14,11 @@ $(document).ready(function() {
     $("#initially-hidden3").slideToggle();
   });
 
+  $(".clickable4").click(function() {
+    $("#toggler").toggleClass("highlighter");
+
+  });
+
   $("button#light").click(function() {
     $("body").removeClass();
     $("body").addClass("light-background");

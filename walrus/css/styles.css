@@ -27,3 +27,10 @@
 .white-background {
   color: white;
 }
+
+.highlighter {
+  text-decoration: underline;
+  background-color: yellow;
+  border: solid; black;
+  padding: 6px;
+  }
