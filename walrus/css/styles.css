@@ -11,3 +11,15 @@
 #initially-showing3 {
   display: none;
 }
+
+.light-background {
+  background-color: #d3d3d3;
+}
+
+.dark-background {
+  background-color: #151515;
+}
+
+.light-text {
+  color: white;
+}
